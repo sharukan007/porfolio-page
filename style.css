@@ -76,8 +76,8 @@ nav li:hover {
     display: flex;
     justify-content: space-around;
     background-color: white;
-flex-wrap: wrap;
-    flex-direction: row;
+flex-direction: row;
+    flex-wrap: wrap;
 }
 
 a {
