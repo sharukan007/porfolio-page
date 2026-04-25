@@ -1,0 +1,455 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(223, 215, 215);
+}
+
+nav {
+    margin: 0%;
+    top: 0%;
+    width: 100%;
+    position: fixed;
+
+}
+
+nav ul {
+    cursor: pointer;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: #8b004a;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li:hover {
+
+    background-color: green;
+    color: white;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    text-align: center;
+    font-size: 23px;
+}
+.name {
+    background-color: rgb(50, 55, 40);
+    color: rgb(138, 247, 138);
+    text-align: center;
+    padding: 50px;
+    word-spacing: 2px;
+
+    margin: 10px 10px;
+    border-radius: 20px;
+}
+
+.name:hover {
+    font-size: 25px;
+    color: white;
+    transition: 0.8s;
+    cursor: pointer;
+
+}
+
+.about {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.contact,
+.mail {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 500px;
+    background-color: pink;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 30px;
+    font-size: 18px;
+    background-color: gray;
+}
+
+.contact:hover {
+    background-color: green;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.mail:hover {
+    background-color: green;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.profile {
+    scroll-margin-top: 80px;
+    padding: 50px;
+    background-color: coral;
+}
+
+.profile h2 {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: black;
+
+}
+
+.profile p {
+    padding: 10px;
+    line-height: 30px;
+    font-size: 20px;
+    text-wrap: wrap;
+
+}
+
+.personal {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: #00a19b;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal:hover {
+    transition: 0.5s;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.one {
+    margin-top: 10px;
+    background-color: darkgrey;
+}
+
+.one ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.one li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    border: none;
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+    background-color: rgb(114, 2, 114);
+    padding: 20px;
+
+}
+
+.one li:hover {
+    background-color: green;
+
+}
+
+/* Education style starts here */
+.edu {
+    scroll-margin-top: 48px;
+    margin: 10px 0 10px 0;
+    background-color: #00a19b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.clg {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clg table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.clg table td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn button {
+padding: 10px 20px;
+background-color: #4caf50;
+color: azure;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+
+}
+
+.xii {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xii table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.xii table td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.x {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.x table {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.x table td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.skills2 {
+    scroll-margin-top: 80px;
+
+}
+
+
+.skill1 ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.skill1 li {
+
+    border-radius: 10px 20px;
+    border: 1px solid green;
+    background-color: #8b004a;
+    color: white;
+    padding: 60px 60px 60px 60px;
+    text-decoration: none;
+
+}
+
+.skill1 h2 {
+    border-radius: 20px 20px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #00a19b;
+}
+
+.skill2 ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill2 li {
+    text-align: center;
+    flex-basis: 15%;
+    margin: 10px;
+    border-radius: 10px;
+    color: #8b004a;
+    background-color: #f7b538;
+}
+
+.skill2 h2 {
+    margin-top: 20px;
+}
+
+.skill2 li:hover {
+    background-color: rgb(187, 50, 50);
+    color: white;
+}
+
+.Exp p {
+    border-left: 10px solid blueviolet;
+    border-top: 3px solid blueviolet;
+    border-bottom: 3px solid blueviolet;
+    padding: 30px;
+    margin-top: 10px;
+
+}
+
+.Exp p:hover {
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+.Exp h2 {
+    scroll-margin-top: 180px;
+
+    text-align: center;
+    background-color: #00a19b;
+    color: white;
+    padding: 20px;
+}
+
+.Lan h2 {
+    text-align: center;
+    background-color: #00a19b;
+    color: white;
+    padding: 20px;
+
+}
+
+.Lan ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Lan li {
+    text-align: center;
+    padding: 40px 60px;
+    background-color: greenyellow;
+    margin-top: 10px;
+
+}
+
+.Lan li:hover {
+    background-color: red;
+    color: white;
+}
+
+.other {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other h2 {
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #00a19b;
+    color: white;
+}
+
+.other ul {
+    list-style-type: disc;
+}
+
+.other ul li {
+    padding: 10px;
+}
+.b {
+    background-image: url(Wallpaper\ ideas.jpg);
+    background-size: cover;
+}
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer table {
+    
+}
+
+.footer td {
+    padding: 10px;
+    
+}
+
+.footer input {
+    border-radius: 15px;
+    padding: 15px 15px 15px;
+    width: 250px;
+    height: 10px;
+}
+
+.footer textarea {
+    
+    border-radius: 5px;
+    font-size: 15px;
+    width: 280px;
+    height: 150px;
+}
+.btnn button {
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 250px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background-color: #00a19b;
+}
+.btnn button:hover {
+    background-color: #8b004a;
+    transition: 1s;
+    
+}
+.b {
+    height: 570px;
+}
